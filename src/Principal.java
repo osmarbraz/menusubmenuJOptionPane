@@ -43,12 +43,14 @@ public class Principal {
                     JOptionPane.showMessageDialog(null, "A área do triângulo: " + area);
                     break;
                 }
+                
                 //Opção de saída do programa
+                
                 case 99: {
                     System.out.println("Saindo do submenu - triângulo");
                     break;
-                }
-                //Opção inválida do menu
+                }                
+                //Opção inválida do submenu                
                 default: {
                     System.out.println("Opção inválida!");
                     break;
@@ -94,12 +96,14 @@ public class Principal {
                     JOptionPane.showMessageDialog(null, "A área do retângulo: " + area);
                     break;
                 }
+                
                 //Opção de saída do programa
+                
                 case 99: {
                     System.out.println("Saindo do submenu - retângulo");
                     break;
                 }
-                //Opção inválida do menu
+                //Opção inválida do submenu
                 default: {
                     System.out.println("Opção inválida!");
                     break;
@@ -120,7 +124,7 @@ public class Principal {
                     //Outras opções vão aqui                    
                     + "99- Sair\n"
                     + "Digite a opção desejada:"));
-            //Verifica a opção
+            //Verifica a opção            
             switch (opcao) {
                 case 1: {
                     menuTriangulo();
@@ -130,7 +134,9 @@ public class Principal {
                     menuRetangulo();
                     break;
                 }
+
                 //Outras opções vão aqui
+                
                 //Opção de saída do programa
                 case 99: {
                     System.out.println("Saindo do programa - principal");
