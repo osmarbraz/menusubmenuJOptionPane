@@ -1,6 +1,6 @@
 
 /**
- * Implementação de exemplo que utiliza JOptionPane para construir um menu de opções.
+ * Implementação de exemplo que utiliza JOptionPane para construir um menu de opções com submenu.
  */
 import javax.swing.JOptionPane;
 
@@ -55,7 +55,7 @@ public class Principal {
                 }
             }//Fim Swtich
         }//Fim While
-    }
+    }//Fim MenuTriangulo
 
     /**
      * Submenu Retângulo.
@@ -106,7 +106,7 @@ public class Principal {
                 }
             }//Fim Swtich
         }//Fim While
-    }
+    }//Fim MenuRetangulo
 
     public static void main(String[] args) {
 
